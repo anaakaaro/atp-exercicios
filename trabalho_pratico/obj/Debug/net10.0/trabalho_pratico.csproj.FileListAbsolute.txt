@@ -1,0 +1,15 @@
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\bin\Debug\net10.0\trabalho_pratico.exe
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\bin\Debug\net10.0\trabalho_pratico.deps.json
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\bin\Debug\net10.0\trabalho_pratico.runtimeconfig.json
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\bin\Debug\net10.0\trabalho_pratico.dll
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\bin\Debug\net10.0\trabalho_pratico.pdb
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\trabalho_pratico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\trabalho_pratico.AssemblyInfoInputs.cache
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\trabalho_pratico.AssemblyInfo.cs
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\trabalho_pratico.csproj.CoreCompileInputs.cache
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\trabalho_pratico.sourcelink.json
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\trabalho_pratico.dll
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\refint\trabalho_pratico.dll
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\trabalho_pratico.pdb
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\trabalho_pratico.genruntimeconfig.cache
+C:\Users\aanaa\OneDrive\Documentos\ATP PUC\atp-exercicios\trabalho_pratico\obj\Debug\net10.0\ref\trabalho_pratico.dll
