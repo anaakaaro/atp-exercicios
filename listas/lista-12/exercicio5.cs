@@ -7,6 +7,45 @@ class Program
         int TAM = int.Parse(Console.ReadLine());
 
         Cidade[] cidades = new Cidade[TAM];
+
+        int opcao;
+        int i = 0;
+
+        do
+        {
+            opcao = Menu();
+
+            switch (opcao)
+            {
+                case 0:
+                    Console.WriteLine("Obrigado!");
+                    break;
+                
+                case 1:
+                    if(i < TAM){
+                        cidades[i] = new Cidade();
+                        cidades[i].CadastrarCidade();
+                        i++;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Vetor cheio");
+                    }
+                    break;
+
+                case 2:
+                    ListaBateVolta(cidades);
+                    break;
+
+                case 3:
+                    Console.Write("Digite a distância: ");
+                    int distancia = int.Parse(Console.ReadLine());
+                    Console.Write(DistanciaMaiorQueChave(cidades, distancia));
+                    break;
+                
+            }
+        } while(opcao != 0);
+        
     }
 
     static int Menu()
@@ -19,9 +58,35 @@ class Program
         Console.WriteLine("2 - Listar bate-e-volta");
         Console.WriteLine("3 - Listar cidades acima de x quilômetros");
         Console.Write("Informe sua opção: ");
-        opcao = int.Parse(COnsole.ReadLine());
+        opcao = int.Parse(Console.ReadLine());
 
         return opcao;
+    }
+
+    static void ListaBateVolta(Cidade[] c)
+    {
+        for(int i = 0; i < Cidade.getQuantidade(); i++)
+        {
+            if(c[i].getDistanciaBH() <= 60)
+            {
+                Console.Write($"{c[i].getNomeCidade()} | Distância: {c[i].getDistanciaBH()}");
+            }
+        }
+    }
+
+    static int DistanciaMaiorQueChave(Cidade[] c, int distancia)
+    {
+        int cidades = 0;
+
+        for(int i = 0; i < Cidade.getQuantidade(); i++)
+        {
+            if(c[i].getDistanciaBH() > distancia)
+            {
+                cidades++;
+            }
+        }
+
+        return cidades;
     }
 
     
@@ -81,6 +146,18 @@ class Cidade
         setDistanciaBH(distanciaBH);
 
         Cidade.aumentarQuantidade();
+    }
+
+    public bool DistanciaEhMenor(int distancia)
+    {
+        bool ehMenor = false;
+
+        if(this.distanciaBH <= distancia)
+        {
+            ehMenor = true;
+        }
+
+        return ehMenor;
     }
     
 }
